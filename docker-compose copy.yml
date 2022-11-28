@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  
+  #web interface
+  react-interface:
+    image: "react-interface"
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/app
+  #AI
+  yolact:
+    image: "yolact"
+    build: ./yolact_cuda_free/
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/usr/src/app

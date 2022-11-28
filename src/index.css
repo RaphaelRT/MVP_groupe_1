@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #000;
+}
+.main_container {
+  min-width: 100vw;
+  min-height: 100vh;
+  
+}
+body {
+  overflow-x: hidden ;
+}
+.circle {
+  position: absolute;
+  z-index: -10000;
+  border-radius: 50%;
+  background: radial-gradient(111.24% 111.24% at 43.63% 1.59%, #8F3CC1 0%, #D22DAE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.circle-big {
+  left: 45%;
+  top: 25%;
+  width: 20vw;
+  height: 20vw;
+  display: none;
+}
+.circle-med {
+  top: 45%;
+  left: -5%;
+  width: 15vw;
+  height: 15vw;
+  display: none;
+}
+.circle-sm {
+  left:35%;
+  top:30%;
+  width: 5vw;
+  height: 5vw;
+  display: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: 'Poppins Regular';
+  src: local('Poppins'), url("./fonts/Poppins/Poppins-Regular.ttf") format('opentype');
+}
+@font-face {
+  font-family: 'Poppins Bold';
+  src: local('Poppins'), url("./fonts/Poppins/Poppins-Bold.ttf") format('opentype');
+}
+header {
+  height: 9vh;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 5em;
+}
+header, header ul, header nav{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+header nav {
+  justify-content: space-between;
+  width: 80vw;
+}
+header nav {
+  justify-content: flex-end;
+}
+header ul {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Poppins Regular";
+}
+header img {
+  margin-top: 1em;
+  max-width: 12vw;
+}
+header ul li {
+  margin-left: 2rem;
+}
+.separator_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separator_container .separator {
+  display: block;
+  content: "";
+  width: 30vw;
+  height: 2px;
+  background: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact_menu {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.5em;
+  margin-right: 3em;
+}
+
+.dd-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+}
+.dd-wrapper {
+  position: relative;
+}
+.dd-header {
+  cursor: pointer;
+}
+.dd-list button,.dd-header button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+.dd-header button {
+  border: solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  border-radius: 0.5em;
+}
+.input_video_container .dd-header button {
+  width:100%;
+}
+.dd-header span {
+  color: #000;
+  margin-right: 0.5em;
+}
+.dd-list button:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.dd-header img {
+  transition: all 0.3s ease-in;
+}
+.rotated {
+  transform: rotateZ(180deg);
+}

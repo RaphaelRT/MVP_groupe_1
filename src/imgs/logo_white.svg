@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158" height="91" viewBox="0 0 158 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+<style>
+path, circle{
+    fill: #fff;
+}
+</style>
+</defs>
+<path d="M33 19L64 33.5M78 6.5L67.5 31M81.5 6.5L103 23M108.5 28L131 41.5M131 41.5L152 25M131 41.5L150.5 68M104.5 29V66.5M70 37L100.5 63.5M70 78L98.5 69M123.5 86L108.5 73M43.5 63.5L64 79.5M62.5 37L44.5 57M8.5 47.5L34.5 59M22 86L34.5 68" stroke="white" stroke-width="4"/>
+<circle cx="30.5" cy="16.5" r="5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="65.5" cy="34.5" r="6" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="78" cy="5" r="3.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="105" cy="25" r="4.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="152.5" cy="23.5" r="4" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="151" cy="67" r="2.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="126" cy="86" r="3.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="105" cy="68" r="7.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="39" cy="60" r="9.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="65.5" cy="78.5" r="6" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="6" cy="46" r="4.5" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="21.5" cy="85.5" r="3" fill="white" stroke="white" stroke-width="3"/>
+</svg>
