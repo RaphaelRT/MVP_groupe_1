@@ -1,0 +1,28 @@
+.ExpertiseCard_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    margin: 1.5rem;
+}
+.ExpertiseCard_container h5 {
+    font-family: "Poppins-Bold";
+    padding-bottom: 1rem;
+}
+
+.ExpertiseCard_container img {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1.5rem;
+}
+.ExpertiseCard_container span {
+    display: block;
+    overflow: auto;
+    width: 30vw;
+}
+.ExpertiseCard_container div {
+    display: flex;
+    flex-direction: column;
+}

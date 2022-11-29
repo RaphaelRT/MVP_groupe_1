@@ -1,0 +1,28 @@
+.predict_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.predict_container h1 {
+    color: #fff;
+    font-family: "Poppins-Bold";
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.input_video_container{
+    border: solid #fff 1px ;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    width: 60vw;
+}
+.input_video_container h4 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

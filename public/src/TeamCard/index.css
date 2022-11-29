@@ -1,0 +1,27 @@
+.TeamCard_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1.5rem;
+}
+.TeamCard_container .team_img {
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: -5px 1px 41px -22px #fff;
+    margin-bottom: 1.2rem;
+    
+}
+.TeamCard_container span {
+    color: #fff;
+}
+.TeamCard_container span:first-of-type {
+    font-family: "Poppins Bold";
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,23 @@
+name: predict
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - nomkl
+  - python=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-image
+  - Pillow
+  - scikit-learn-intelex
+  - boto3
+  - botocore
+  - pip
+  - pip:
+    - python-dotenv==0.20.0
+    - opencv-python
+    - torch
+    - torchvision
+    - flask
+    - cython

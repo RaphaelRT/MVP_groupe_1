@@ -1,0 +1,26 @@
+.Annotator {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.Annotator .tag{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1em;
+    align-items: center;
+}
+.Annotator_img , #canvas{
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+}
+.Annotator_menu {
+    width: 20vw;
+    display: flex;
+}
+.Annotator_menu input {
+    height: 2em;
+}

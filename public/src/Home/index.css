@@ -1,0 +1,230 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h3, h2, h3, h4, h5, span{
+    font-family: 'Poppins Regular';
+    font-style: normal;
+    color: #fff;
+}
+b {
+    font-family: 'Poppins-Bold';
+}
+h2 {
+    font-size: 1.4em;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-size: 1.4em;
+    line-height: 2.2rem;
+    text-align: center;
+}
+.ctaContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 2rem;
+}
+.ctaContainer button{
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Poppins Regular';
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.services_container h4 {
+    font-family: "Poppins Bold";
+    font-size: 1.8em;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.services_container span {
+    color: #fff;
+}
+.services_container h5 {
+    color: #fff;
+}
+.colored_text {
+    background: linear-gradient(90deg, #8F3CC1 34.16%, #F17674 62.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content_container {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.content_container span {
+    font-size: 1.4em;
+    margin-top: 1.5rem;
+    line-height: 130%;
+}
+.home main {
+    display: flex;
+    flex-direction: row;
+    height: 91vh;
+}
+.services_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #000;
+}
+.services_container .schema{
+    width: 40vw;
+}
+.services_container_bloc {
+    margin-top: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.services_container_bloc-service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.expertise_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    background-color: #000;
+    margin-bottom: 5rem;
+}
+.expertise_container h4{
+    font-family: "Poppins Bold";
+    font-size: 1.8em;
+    margin-bottom: 2rem;
+}
+.expertiseCard_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.team_container h4 {
+    font-family: "Poppins Bold";
+    font-size: 1.8em;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.team_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    background-color: #000;
+}
+.teamCard_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_container h4{
+    font-family: "Poppins Bold";
+    font-size: 1.8em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.valeur_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 3rem;
+}
+.valeur_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.valeur_container .valeur_card img{
+    width: 4rem;
+    height: 4rem;
+}
+.valeur_container .valeur_card span {
+    text-align: center;
+    font-size: 1em;
+}
+.logo_container {
+    display: flex;
+    flex-direction: row;
+}
+.logo_text {
+    display: flex;
+    flex-direction: column;
+}
+.logo_text h1 {
+    color: #fff;
+    font-family: 'Poppins Regular';
+    font-size: 4em;
+}
+.logo_text span {
+    color: #fff;
+    font-family: 'Poppins Regular';
+    font-size: 1.1em;
+}
+.logo_container img {
+    height: 5em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+.confidence_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.confidence_container h4{
+    font-family: "Poppins Bold";
+    font-size: 1.8em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.confidence_container_imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.confidence_container_imgs div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.confidence_container_imgs div img {
+    width: 13rem;
+    height: 13rem;
+}
+
