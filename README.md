@@ -1,5 +1,5 @@
 # Entrepreneurship project
- 
+   
 This project was build with react js and python (flask, pytorch)
 
 ## Needed
